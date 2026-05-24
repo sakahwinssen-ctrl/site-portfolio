@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de SAÉ de Winssen Sakah en BUT Réseaux &amp; Télécommunications">
+  <title>Portfolio | Winssen Sakah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="brand">Portfolio</a>
+
+    <nav class="nav-menu">
+      <a href="index.html">Accueil</a>
+      <a href="presentation.html">Présentation</a>
+      <a href="sae.html">Mes SAÉ</a>
+      <a href="bilan.html">Bilan</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">BUT Réseaux &amp; Télécommunications</p>
+        <h1>Winssen Sakah</h1>
+        <p class="hero-text">
+          Étudiant en BUT R&amp;T, je construis progressivement un profil orienté réseaux, cybersécurité
+          et développement. Ce portfolio présente mes SAÉ, mes compétences techniques et ma progression.
+        </p>
+        <div class="hero-actions">
+          <a href="#competences" class="btn btn-primary">Mes compétences</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+
+      <figure class="profile-card" aria-label="Photo de profil de Winssen Sakah">
+        <img src="assets/photo-winssen.jpg" alt="Portrait de Winssen Sakah" class="profile-photo">
+        <figcaption>
+          <span class="profile-name">Winssen Sakah</span>
+          <span class="profile-role">BUT 1 R&amp;T - IUT Grand Ouest Normandie</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section compact-section" id="competences">
+    <div class="container">
+      <div class="section-title">
+        <p class="section-subtitle">Compétences</p>
+        <h2>Ce que je développe</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <p class="skill-eyebrow">Développement</p>
+          <h3>Programmation et web</h3>
+          <p>
+            Je progresse sur les bases de la programmation, des pages web et de la manipulation de données.
+          </p>
+          <div class="tag-list compact-tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <p class="skill-eyebrow">Réseaux</p>
+          <h3>Infrastructure et diagnostic</h3>
+          <p>
+            J’apprends à comprendre une architecture réseau, tester la connectivité et repérer les erreurs simples.
+          </p>
+          <div class="tag-list compact-tags">
+            <span>Adressage IP</span>
+            <span>Réseaux locaux</span>
+            <span>Diagnostic</span>
+            <span>Cybersécurité</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <p class="skill-eyebrow">Méthode</p>
+          <h3>Travail professionnel</h3>
+          <p>
+            Les SAÉ m’aident à mieux organiser mon travail, présenter mes résultats et collaborer en équipe.
+          </p>
+          <div class="tag-list compact-tags">
+            <span>Rigueur</span>
+            <span>Autonomie</span>
+            <span>Communication</span>
+            <span>Esprit d’équipe</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pages">
+    <div class="container">
+      <div class="section-title">
+        <p class="section-subtitle">Navigation</p>
+        <h2>Mes pages principales</h2>
+      </div>
+
+      <div class="card-grid">
+        <a href="sae.html" class="feature-card">
+          <h3>Mes SAÉ</h3>
+          <p>Toutes mes SAÉ regroupées sur une seule page claire et complète.</p>
+        </a>
+
+        <a href="presentation.html" class="feature-card">
+          <h3>Présentation</h3>
+          <p>Mon profil, mon CV, mes expériences et mon projet professionnel.</p>
+        </a>
+
+        <a href="bilan.html" class="feature-card">
+          <h3>Bilan</h3>
+          <p>Synthèse de mes compétences et de ma progression.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-layout">
+      <div>
+        <p class="section-subtitle">Contact</p>
+        <h2>Travaillons ensemble</h2>
+        <p class="contact-text">
+          Pour me joindre rapidement, vous pouvez utiliser le formulaire ou me contacter directement par email
+          ou par téléphone.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:sakahwinssen@gmail.com">
+            <strong>Email</strong>
+            <span>sakahwinssen@gmail.com</span>
+          </a>
+          <a href="tel:+33761667831">
+            <strong>Téléphone</strong>
+            <span>07 61 66 78 31</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label for="name">Nom</label>
+        <input id="name" name="name" type="text" placeholder="Votre nom">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="votre.email@example.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Bonjour Winssen, je vous contacte pour..." required></textarea>
+
+        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-wrapper">
+    <p>© 2026 — Portfolio de Winssen Sakah</p>
+    <p>BUT Réseaux &amp; Télécommunications</p>
+  </div>
+</footer>
+
+<script>
+  const contactForm = document.querySelector('#contact-form');
+
+  contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(contactForm);
+    const name = formData.get('name') || 'Contact';
+    const email = formData.get('email') || 'Non renseigné';
+    const message = formData.get('message') || '';
+    const subject = `Message depuis le portfolio - ${name}`;
+    const body = `Nom : ${name}\nEmail : ${email}\n\nMessage :\n${message}`;
+
+    window.location.href = `mailto:sakahwinssen@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });
+</script>
+</body>
+</html>
