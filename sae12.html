@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAÉ 12 - S’initier aux réseaux informatiques">
+  <title>SAÉ 12 | Winssen Sakah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="brand">Portfolio</a>
+
+    <nav class="nav-menu">
+      <a href="index.html">Accueil</a>
+      <a href="presentation.html">Présentation</a>
+      <a href="sae.html">Mes SAÉ</a>
+      <a href="bilan.html">Bilan</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="container sae-page-layout">
+    <section class="page-intro narrow">
+      <p class="kicker">SAÉ 12</p>
+      <h1>S’initier aux réseaux informatiques</h1>
+      <p>Cette SAÉ m’a permis de passer de la théorie à une vraie logique d’infrastructure réseau, avec des équipements, des VLANs et des tests de connectivité.</p>
+      <div class="hero-actions">
+        <a href="sae.html#sae12" class="btn btn-secondary">Retour aux SAÉ</a>
+        
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Présentation de la SAÉ</h2>
+      <p>Le projet consistait à configurer une infrastructure réseau complète en respectant un cahier des charges. Le travail portait sur l’organisation du plan d’adressage, la création de VLANs, la configuration de routeurs et commutateurs Cisco, ainsi que la mise en place de tests pour vérifier que les machines pouvaient communiquer correctement.</p>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Mes tâches et mes preuves</h2>
+      <p>
+        Dans mon groupe, j’ai surtout travaillé sur la configuration du routeur et des commutateurs Cisco.
+        Avant de toucher au matériel, j’ai commencé par modéliser l’infrastructure sur Cisco Packet Tracer.
+        Ensuite, je suis passé sur le vrai matériel en salle de TP, avec PuTTY pour entrer les commandes.
+      </p>
+      <ul class="styled-list">
+        <li>Analyse du schéma réseau et du plan IP.</li>
+        <li>Création et association des VLANs.</li>
+        <li>Configuration de routeur et de switches Cisco.</li>
+        <li>Mise en place du routage inter-VLAN.</li>
+        <li>Tests de connectivité et corrections des erreurs.</li>
+      </ul>
+    </section>
+
+
+    <section class="proof-gallery sae12-proof-shot">
+      <article class="proof-card proof-image-only">
+        <img src="assets/preuve-sae12-visio.png" alt="Schéma de l’infrastructure réseau de la SAÉ 12">
+
+        <img src="assets/preuve-sae12-config-switch.png" alt="Notice de configuration Cisco utilisée pendant la SAÉ 12">
+      </article>
+    </section>
+
+    <section class="portfolio-proof-note">
+      <h2>Impact et utilité de la preuve</h2>
+      <p>
+        Le schéma d’infrastructure et la notice de configuration sont deux preuves complémentaires du travail réalisé durant la SAÉ 12. Le schéma permet de visualiser l’organisation générale du réseau, avec les VLANs, les postes, les commutateurs, le routeur, le serveur, la VM Debian et les liens entre les équipements.
+
+La notice de configuration montre, quant à elle, les commandes Cisco utilisées pour mettre en place cette infrastructure sur les commutateurs. On y retrouve notamment la création des VLANs, l’affectation des ports aux différents réseaux, la configuration des liens agrégés ainsi que les étapes de réinitialisation et de nommage des équipements.
+
+Ces deux preuves montrent que le travail ne consistait pas seulement à brancher des machines. Il fallait comprendre la logique du réseau, respecter un plan d’adressage, séparer les réseaux avec des VLANs, configurer les équipements en ligne de commande, puis tester et corriger les erreurs pour garantir une communication cohérente entre les différentes machines.
+
+      </p>
+    </section>
+<section class="portfolio-section">
+      <h2>Auto-évaluation</h2>
+      <p>C’est l’une des SAÉ qui m’a le plus marqué parce qu’elle m’a vraiment fait comprendre le rôle d’un administrateur réseau. J’ai appris qu’une configuration ne se fait pas au hasard : il faut vérifier étape par étape, tester, corriger et documenter. Mon axe d’amélioration est de gagner en rapidité sur les commandes Cisco et d’être plus à l’aise quand une erreur apparaît.</p>
+    </section>
+
+    <section class="competency-card">
+      <p class="skill-eyebrow">Compétence visée</p>
+      <h2>RT1 · Administrer les réseaux et l’Internet</h2>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Apprentissages critiques mobilisés</h2>
+      <ul class="styled-list">
+        <li><strong>AC11.01 :</strong> mobiliser les bases techniques utiles aux équipements réseau.</li>
+        <li><strong>AC11.03 :</strong> configurer les fonctions de base d’un réseau local.</li>
+        <li><strong>AC11.05 :</strong> identifier les dysfonctionnements du réseau local.</li>
+        <li><strong>AC11.06 :</strong> installer un poste client et expliquer la procédure.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrapper">
+    <p>© 2026 — Portfolio de Winssen Sakah</p>
+    <p>BUT Réseaux &amp; Télécommunications</p>
+  </div>
+</footer>
+
+</body>
+</html>

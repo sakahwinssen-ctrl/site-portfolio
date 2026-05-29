@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAÉ 11 - Lot 3 Découverte avec Nmap">
+  <title>SAÉ 11 | Winssen Sakah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="brand">Portfolio</a>
+
+    <nav class="nav-menu">
+      <a href="index.html">Accueil</a>
+      <a href="presentation.html">Présentation</a>
+      <a href="sae.html">Mes SAÉ</a>
+      <a href="bilan.html">Bilan</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="container sae-page-layout">
+    <section class="page-intro narrow">
+      <p class="kicker">SAÉ 11</p>
+      <h1>Lot 3 : Découverte réseau</h1>
+      <p>
+        Cette SAÉ m’a permis de travailler sur la découverte d’un réseau avec Nmap :
+        repérer les machines actives, identifier les systèmes, les services ouverts et comprendre
+        les précautions à prendre avant de lancer un scan.
+      </p>
+      <div class="hero-actions">
+        <a href="sae.html#sae11" class="btn btn-secondary">Retour aux SAÉ</a>
+        <a href="assets/sae11-lot3-decouverte.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+          Voir le diaporama
+        </a>
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Présentation de la SAÉ</h2>
+      <p>
+        Avec mon groupe, nous avons travaillé sur le lot 3 : <strong>Découverte</strong>.
+        Le but était d’expliquer comment analyser un réseau avec <strong>Nmap</strong>.
+      </p>
+
+      <p>
+        Notre diaporama présente plusieurs étapes :
+      </p>
+
+      <ul class="styled-list">
+        <li>repérer les machines actives du réseau avec <strong>nmap -sn</strong> ;</li>
+        <li>identifier le système d’exploitation avec <strong>nmap -O</strong> ;</li>
+        <li>voir les services ouverts avec <strong>nmap -sV</strong> ;</li>
+        <li>obtenir plus de détails sur les versions avec <strong>--version-all</strong>.</li>
+      </ul>
+
+      <p>
+        Nous avons aussi expliqué qu’un scan réseau doit être fait avec autorisation,
+        car il peut être considéré comme intrusif ou gêner le fonctionnement du réseau.
+      </p>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Mes tâches et mes preuves</h2>
+      <p>
+        J’ai participé à la préparation du support et à l’organisation des idées.
+        Le plus important était de rendre les commandes compréhensibles, pas seulement de les afficher.
+      </p>
+
+      <p>
+        J’ai travaillé sur l’explication des résultats de scan :
+      </p>
+
+      <ul class="styled-list">
+        <li>reconnaître une machine active ;</li>
+        <li>comprendre les ports ouverts ;</li>
+        <li>repérer des services comme SSH ou VNC ;</li>
+        <li>expliquer l’intérêt de connaître la version d’un service.</li>
+      </ul>
+
+      <p>
+        Une autre partie importante concernait les bonnes pratiques :
+        demander l’autorisation, prévenir les administrateurs et utiliser une vitesse de scan raisonnable.
+      </p>
+    </section>
+
+    
+    <section class="proof-gallery sae11-proof-shot">
+      <article class="proof-card proof-image-only">
+        <img src="assets/preuve-sae11-lot3-page-1.png" alt="Page de titre du diaporama Lot 3 Découverte">
+      </article>
+    </section>
+
+    <section class="proof-gallery sae11-proof-grid">
+      <article class="proof-card proof-image-only">
+        <img src="assets/preuve-sae11-lot3-page-2.png" alt="Slide sur la découverte des machines du réseau avec nmap">
+      </article>
+
+      <article class="proof-card proof-image-only">
+        <img src="assets/preuve-sae11-lot3-page-4.png" alt="Slide sur la découverte des services disponibles">
+      </article>
+
+      <article class="proof-card proof-image-only">
+        <img src="assets/preuve-sae11-lot3-page-7.png" alt="Slide sur les risques de nmap et du scan réseau">
+      </article>
+    </section>
+
+
+    <section class="portfolio-proof-note">
+      <h2>Impact et utilité de la preuve</h2>
+      <p>
+        Le diaporama prouve que j’ai compris les étapes principales d’une découverte réseau. La première partie
+        montre comment repérer les machines actives avec <strong>nmap -sn</strong>. Les slides suivantes expliquent
+        comment aller plus loin : identifier l’OS avec le fingerprint, afficher les services ouverts avec
+        <strong>nmap -sV</strong>, puis récupérer les versions des services. Cette preuve est utile car elle montre
+        une démarche complète : partir d’un réseau inconnu, trouver les machines, comprendre ce qui tourne dessus
+        et garder en tête les limites légales et techniques du scan.
+      </p>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Auto-évaluation</h2>
+      <p>
+        Cette SAÉ m’a aidé à mieux comprendre le début d’une analyse réseau. Avant, je voyais Nmap surtout comme
+        une commande à taper. Maintenant, je comprends mieux la logique : on commence par découvrir les machines,
+        puis on affine avec les ports, les services et les versions. J’ai aussi compris que la partie sécurité
+        ne se limite pas à trouver des informations : il faut respecter un cadre, demander l’autorisation et éviter
+        de perturber le réseau. Je dois encore progresser sur l’interprétation complète des résultats, mais cette
+        SAÉ m’a donné une première méthode claire.
+      </p>
+    </section>
+
+    <section class="competency-card">
+      <p class="skill-eyebrow">Compétence visée</p>
+      <h2>RT1 · Administrer les réseaux et l’Internet</h2>
+    </section>
+
+    <section class="portfolio-section">
+      <h2>Apprentissages critiques mobilisés</h2>
+      <ul class="styled-list">
+        <li><strong>AC11.02 :</strong> comprendre les principes liés aux systèmes numériques et à Internet.</li>
+        <li><strong>AC11.04 :</strong> analyser des services et des machines présents sur un réseau.</li>
+        <li><strong>AC11.05 :</strong> identifier des risques et respecter un cadre d’utilisation autorisé.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrapper">
+    <p>© 2026 — Portfolio de Winssen Sakah</p>
+    <p>BUT Réseaux &amp; Télécommunications</p>
+  </div>
+</footer>
+
+</body>
+</html>
