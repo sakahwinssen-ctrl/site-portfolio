@@ -60,20 +60,23 @@
     <section class="proof-gallery sae12-proof-shot">
       <article class="proof-card proof-image-only">
         <img src="assets/preuve-sae12-visio.png" alt="Schéma de l’infrastructure réseau de la SAÉ 12">
-      </article>
-    </section>
 
-    <section class="portfolio-proof-note">
-      <h2>Impact et utilité de la preuve</h2>
-      <p>
-        Le schéma d’infrastructure est une preuve importante parce qu’il résume toute la logique réseau de la SAÉ.
-        On y voit les différents VLANs, les postes, les commutateurs, le routeur, le serveur, la VM Debian
-        et les liens entre les équipements. Cette preuve permet donc de comprendre l’organisation du réseau avant
-        même de regarder les configurations. Elle montre aussi que le travail ne consistait pas seulement à brancher
-        des machines : il fallait respecter un plan d’adressage, séparer les réseaux avec des VLANs, prévoir les
-        communications entre eux et vérifier que l’ensemble reste cohérent.
-      </p>
-    </section>
+    <img src="assets/preuve-sae12-config-switch.png" alt="Notice de configuration Cisco utilisée pendant la SAÉ 12">
+  </article>
+</section>
+
+<section class="portfolio-proof-note">
+  <h2>Impact et utilité de la preuve</h2>
+  <p>
+    Le schéma d’infrastructure et la notice de configuration sont deux preuves complémentaires du travail réalisé durant la SAÉ 12. Le schéma permet de visualiser l’organisation générale du réseau, avec les VLANs, les postes, les commutateurs, le routeur, le serveur, la VM Debian et les liens entre les équipements.
+  </p>
+  <p>
+    La notice de configuration montre, quant à elle, les commandes Cisco utilisées pour mettre en place cette infrastructure sur les commutateurs. On y retrouve notamment la création des VLANs, l’affectation des ports aux différents réseaux, la configuration des liens agrégés ainsi que les étapes de réinitialisation et de nommage des équipements.
+  </p>
+  <p>
+    Ces deux preuves montrent que le travail ne consistait pas seulement à brancher des machines. Il fallait comprendre la logique du réseau, respecter un plan d’adressage, séparer les réseaux avec des VLANs, configurer les équipements en ligne de commande, puis tester et corriger les erreurs pour garantir une communication cohérente entre les différentes machines.
+  </p>
+</section>
 <section class="portfolio-section">
       <h2>Auto-évaluation</h2>
       <p>C’est l’une des SAÉ qui m’a le plus marqué parce qu’elle m’a vraiment fait comprendre le rôle d’un administrateur réseau. J’ai appris qu’une configuration ne se fait pas au hasard : il faut vérifier étape par étape, tester, corriger et documenter. Mon axe d’amélioration est de gagner en rapidité sur les commandes Cisco et d’être plus à l’aise quand une erreur apparaît.</p>
